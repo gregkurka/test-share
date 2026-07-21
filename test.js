@@ -32,3 +32,5 @@ for (const headerText of headers) {
   await element.waitForDisplayed({ timeout: 1000 });
   expect(await element.isDisplayed()).toBe(true);
 }
+
+// This is an extra comment for test purposes
